@@ -29,4 +29,4 @@ app.get("/random-beer", (req,res) => {
     .then(responseFromAPI => res.render('random-beer', {responseFromAPI}))
 })
 
-app.listen(3000, () => console.log('🏃‍ on port 3000'));
+app.listen(3000, () => console.log('🏃‍ on port 3000'))}

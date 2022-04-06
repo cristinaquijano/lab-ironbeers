@@ -1,0 +1,8 @@
+<div class="container">
+<h1>Random Beer</h1>
+{{#each responseFromAPI}}
+<img src={{{img_url}}} alt="random-beer" />
+<h5>{{{name}}}</h5>
+<p>{{{description}}}</p>
+{{/each}}
+</div>
